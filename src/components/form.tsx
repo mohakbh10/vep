@@ -19,7 +19,7 @@ const Form = ({ Top, Left, Type, Placeholder }: FormProps) => {
     return (
         <div style={{ position: "absolute" }}>
         <input
-            className="absolute w-[400px] h-[48px] bg-[#F2F2F2] rounded-[15px] placeholder:font-raleway ps-6 pr-12 focus:outline-none focus:ring-0 focus:border-gray-400"
+            className="absolute w-[400px] h-[48px] bg-[#F2F2F2] rounded-[15px] placeholder:font-raleway placeholder:text-[14px] ps-6 pr-12 focus:outline-none focus:ring-0 focus:border-gray-400"
             type={inputType}
             placeholder={Placeholder}
             style={{ top: `${Top}px`, left: `${Left}px` }}
