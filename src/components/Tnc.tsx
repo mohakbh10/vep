@@ -1,6 +1,4 @@
 import React from 'react'
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import Button from './button';
 
 const tc = ():JSX.Element => {
     return (

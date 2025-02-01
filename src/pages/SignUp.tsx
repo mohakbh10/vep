@@ -7,7 +7,7 @@ import SecureLogin from "../assets/Secure Login Illustration.svg"
 import Group944 from "../assets/Group 944.svg";
 import headerstate3 from "../assets/headerstate3.svg"
 import RadioGroup from "../components/RadioGroup";
-import Tnc from "../components/t&c";
+import Tnc from "../components/Tnc";
 import BusinessAddressForm from "../components/BusinessAddressForm";
 import ProfileData from "../assets/IoT Practice Profile Data.svg"
 import AccountIllustration from "../assets/Account Illustration.svg"
