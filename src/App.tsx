@@ -1,18 +1,19 @@
-import Login from "./pages/Login"
+import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
-import Dasboard from "./pages/Dashboard";
+import Dashboard from "./pages/Dashboard"; // Fix typo in "Dasboard" to "Dashboard"
 
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/dashboard" element={<Dasboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
-    </BrowserRouter> 
-  )
+    </HashRouter>
+  );
 }
 
-export default App
+export default App;
