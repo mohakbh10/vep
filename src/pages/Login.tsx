@@ -8,12 +8,11 @@ import { Link } from 'react-router-dom';
 const Login = () => {
     return (
         <main>
-        
             <div className=" absolute w-[52px] h-[28px] left-[120px] top-[120px] font-raleway font-normal text-[24px] leading-[28px] tracking-[0.0015em] text-[#333333]">Hey!</div>
             <div className="absolute w-[229px] h-[38px] left-[120px] top-[156px] font-raleway font-bold text-[32px] leading-[38px] tracking-[-0.02em] text-[#333333]">Welcome back.</div>
-            <img src={UndrawPay} alt="{undrawpayonline}" className="absolute w-[505px] h-[393px] left-[120px] top-[247px]"/>
+            <img src={UndrawPay} alt="undrawpayonline" className="absolute w-[505px] h-[393px] left-[120px] top-[247px]"/>
             <div className="absolute w-[2px] h-[416px] left-[720px] top-[226px] border-l-2 border-[#F2F2F2]"></div>
-            <img src={Group944} alt="{Group944}" className="absolute w-[150.45px] h-[50.57px] left-[855px] top-[123px]"/>
+            <img src={Group944} alt="Group944" className="absolute w-[150.45px] h-[50.57px] left-[855px] top-[123px]"/>
             <p className="absolute w-[254px] h-[34px] left-[855px] top-[221.57px] font-raleway font-normal text-[24px] leading-[140%] tracking-[0.005em] text-[#333333]">
                 Login to your account.
             </p>

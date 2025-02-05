@@ -37,9 +37,9 @@ const SignUp: React.FC = () => {
           <div className="absolute w-[400px] h-[44px] left-[855px] top-[292px] font-raleway font-light text-[16px] leading-[140%] tracking-[0.005em] text-[#333333]">Enter your phone number to register your account.</div>
           <Form Top={384} Left={855} Type="tel" Placeholder="Enter phone number" />
           <Button text="NEXT" Top={480} Left={855} onClick={nextStep} />
-          <div className="absolute font-light font-raleway w-[219px] h-[20px] left-[945px] top-[584px] text-[15px]">
+          <div className="absolute font-light font-raleway w-[229px] h-[20px] left-[945px] top-[584px] text-[15px]">
             Already have an account? {" "}
-            <Link to="/login" className="text-[#BF13BF] font-normal text-[15px]">Login</Link>
+            <Link to="/login" className="text-[#BF13BF] font-normal text-[15px]">LOGIN</Link>
           </div>
         </div>
       )}
@@ -156,10 +156,9 @@ const SignUp: React.FC = () => {
           <div className="absolute left-[855px] top-[240px] w-[400px] h-[34px] font-raleway font-semibold text-[24px] leading-[140%] tracking-[0.005em] text-[#333333]">
             Set up your username
           </div>
-
-          <Form Top={330} Left={855} Type="text" Placeholder="Enter your username" />
-          <div className="absolute left-[132px] top-[0px] w-[48px] h-[0px] border-[1px] border-[#E5E5E5] transform rotate-[90deg]" />
-
+          <div className="absolute left-[855px] top-[298px] w-[400px] h-[48px] font-raleway font-normal text-[16px] leading-[150%] tracking-[0.005em] text-[#333333]"></div>
+          <div className="absolute w-[400px] h-[48px] top-[330px] left-[855px] bg-[#F2F2F2] rounded-[15px] font-raleway flex items-center tracking-wider text-l px-6 text-gray-500">vep.me/</div>
+          <Form Top={330} Left={950} Width={300} Type="text" Placeholder="Enter your username" />
           <div className="absolute left-[855px] top-[402px] w-[400px] h-[46px] font-raleway font-normal text-[15px] leading-[150%] tracking-[0.005em] text-[#333333]">
             This will be the unique name using which other users can find and pay you.
           </div>
