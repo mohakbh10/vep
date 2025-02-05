@@ -1,4 +1,3 @@
-import React from 'react'
 import home from '../assets/dashboard svgs/home.svg'
 import arrow from '../assets/dashboard svgs/arrow.svg'
 import wallet from '../assets/dashboard svgs/wallet.svg'

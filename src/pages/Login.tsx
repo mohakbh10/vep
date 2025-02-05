@@ -1,4 +1,3 @@
-import React from 'react'
 import UndrawPay from "../assets/Pay Online Illustration.svg";
 import Group944 from "../assets/Group 944.svg"
 import Form from "../components/form"

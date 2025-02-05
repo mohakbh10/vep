@@ -1,4 +1,3 @@
-import React from 'react'
 import pfp from '../assets/dashboard svgs/pfp.svg'
 
 const UserProfile = () => {
