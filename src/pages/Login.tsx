@@ -20,7 +20,7 @@ const Login = () => {
             </p>
             <Form Top={332} Left={855} Type="email" Placeholder="Enter email ID"/>
             <Form Top={404.57} Left={855} Type="password" Placeholder="Set Password"/>
-            <Button text='Login' Top={484.57} Left={855}/>
+            <Link to="/dashboard" className="cursor-pointer">{<Button text='Login' Top={484.57} Left={855}/>}</Link>
             <div className="absolute w-[251px] font-raleway text-[14px] font-extralight h-[20px] left-[863px] top-[556.57px]">
                 Forgot Password? {" "}
                 <a className="text-[#b874b8] font-normal" href="/login">RESET PASSWORD</a>
